@@ -77,7 +77,7 @@ $personal = mysqli_query($conn, "SELECT * FROM personal WHERE disponible = 1 ORD
         </div>
     <?php endif; ?>
 
-    <form method="post" class="bg-white p-4 shadow rounded" novalidate>
+    <form method="post" class="bg-white p-4 shadow rounded" >
         <div class="mb-3">
             <label for="cliente_nombre" class="form-label">Nombre completo</label>
             <input type="text" class="form-control" id="cliente_nombre" name="cliente_nombre" required
