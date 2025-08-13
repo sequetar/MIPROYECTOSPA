@@ -4,7 +4,7 @@ include("includes/db.php");
 
 // --- CONFIGURACIÓN DE CREDENCIALES ---
 define('ADMIN_USER', 'admin');
-define('ADMIN_PASS', 'admin123'); /
+define('ADMIN_PASS', 'admin123'); 
 
 // --- LOGOUT ---
 if (isset($_GET['logout'])) {

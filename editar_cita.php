@@ -134,7 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </form>
 
 <script>
-// Bootstrap form validation
+// Bootstrap Validación de form 
 (() => {
   'use strict';
   const forms = document.querySelectorAll('.needs-validation');

@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         if ($stmt->execute()) {
             $mensaje = "Servicio actualizado correctamente.";
-            // Actualizar datos en memoria
+            // Actualizar datos 
             $servicio['nombre'] = $nombre;
             $servicio['duracion_minutos'] = $duracion_minutos;
             $servicio['precio'] = $precio;
