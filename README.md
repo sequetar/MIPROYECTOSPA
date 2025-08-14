@@ -16,7 +16,7 @@ Proyecto web desarrollado en HTML, CSS, PHP, MySQL y Bootstrap para gestionar ci
 
 ---
 
-## 🗄 Tecnologías
+## Tecnologías
 - Backend: PHP 7+
 - Base de datos: MySQL
 - **Frontend:** HTML5, CSS3, Bootstrap
@@ -24,7 +24,7 @@ Proyecto web desarrollado en HTML, CSS, PHP, MySQL y Bootstrap para gestionar ci
 
 ---
 
-## 📂 Estructura
+## Estructura
 - `index.php` → Página principal (catálogo y agendamiento).
 - `admin.php` → Panel de administración.
 - `includes/db.php` → Conexión a la base de datos.
@@ -33,7 +33,7 @@ Proyecto web desarrollado en HTML, CSS, PHP, MySQL y Bootstrap para gestionar ci
 
 ---
 
-## 📋 Instalación rápida
+## Instalación rápida
 1. Importar `sql/spa.sql` en phpMyAdmin.
 2. Configurar `includes/db.php` con tus datos de conexión.
 3. Abrir en el navegador:
